@@ -20,9 +20,6 @@ def generate_blog(paragraph_topic):
   )
   retrieve_blog = response.choices[0].text
   return retrieve_blog
-
-# Multiple Paragraphs
-
 keep_writing = True
 
 while keep_writing:
